@@ -802,7 +802,7 @@ require('lazy').setup({
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
     opts = {
-      ensure_installed = { 'bash', 'c', 'html', 'lua', 'luadoc', 'markdown', 'vim', 'vimdoc' },
+      ensure_installed = { 'bash', 'c', 'html', 'lua', 'luadoc', 'markdown', 'vim', 'vimdoc', 'python' },
       -- Autoinstall languages that are not installed
       auto_install = true,
       highlight = {
@@ -819,8 +819,8 @@ require('lazy').setup({
 
       ---@diagnostic disable-next-line: missing-fields
       require('nvim-treesitter.configs').setup(opts)
-	  -- add below line to make things work on Windows ref https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support
-	  -- require 'nvim-treesitter.install'.compilers = { "clang" }
+      -- add below line to make things work on Windows ref https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support
+      -- require 'nvim-treesitter.install'.compilers = { "clang" }
 
       -- There are additional nvim-treesitter modules that you can use to interact
       -- with nvim-treesitter. You should go explore a few and see what interests you:
