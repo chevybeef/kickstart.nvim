@@ -648,6 +648,7 @@ require('lazy').setup({
         -- is found.
         -- javascript = { { "prettierd", "prettier" } },
         rust = { 'rustfmt' },
+        go = { 'goimports', 'gofmt' },
       },
     },
   },
