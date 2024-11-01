@@ -627,6 +627,10 @@ require('lazy').setup({
         -- ts_ls = {},
         --
 
+        zls = {
+          cmd = { '/home/mark/.local/bin/zls' },
+        },
+
         lua_ls = {
           -- cmd = {...},
           -- filetypes = { ...},
